@@ -1,9 +1,9 @@
 # My device OS.
 FROM ubuntu:22.04
 
-RUN apt-get update && apt-get install -y openssh-server
+RUN apt-get update && apt-get install -y openssh-server openjdk-8-jdk
 
-# Create the privilege separation directory
+# ssh directory
 RUN mkdir /run/sshd
 
 # Username + password + update them.
@@ -12,8 +12,14 @@ RUN echo 'root:root' | chpasswd
 # To enable SSH root login in the Docker container, it is disabled in Linux.
 RUN sed -i 's/#PermitRootLogin prohibit-password/PermitRootLogin yes/' /etc/ssh/sshd_config
 
-# Start the SSH server
-CMD ["/usr/sbin/sshd", "-D"]
+COPY app.jar /app/app.jar
+
+WORKDIR /app
+
+
+# Start the application
+CMD ["java", "-jar", "app.jar"]
+
 
 
 #in terminal:

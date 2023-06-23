@@ -1,3 +1,6 @@
-/home/noor/eclipse-workspace/clustered-data-warehouse/src/main/java/com/progresssoft/test/TestMysql.java
-/home/noor/eclipse-workspace/clustered-data-warehouse/src/main/java/com/progresssoft/models/DealsDetails.java
-/home/noor/eclipse-workspace/clustered-data-warehouse/src/main/java/com/progresssoft/test/TestDocker.java
+/home/noor/Downloads/progresssoft/ssh/clustered-data-warehouse/src/main/java/com/progresssoft/utils/LoggerUtil.java
+/home/noor/Downloads/progresssoft/ssh/clustered-data-warehouse/src/main/java/com/progresssoft/dao/FXDealsDAO.java
+/home/noor/Downloads/progresssoft/ssh/clustered-data-warehouse/src/main/java/com/progresssoft/App.java
+/home/noor/Downloads/progresssoft/ssh/clustered-data-warehouse/src/main/java/com/progresssoft/utils/Constants.java
+/home/noor/Downloads/progresssoft/ssh/clustered-data-warehouse/src/main/java/com/progresssoft/models/DealDetails.java
+/home/noor/Downloads/progresssoft/ssh/clustered-data-warehouse/src/main/java/com/progresssoft/service/ClusteredDataService.java

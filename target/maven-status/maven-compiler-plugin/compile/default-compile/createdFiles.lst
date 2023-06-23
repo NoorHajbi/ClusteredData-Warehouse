@@ -1,3 +1,7 @@
-com/progresssoft/test/TestMysql.class
-com/progresssoft/models/DealsDetails.class
-com/progresssoft/test/TestDocker.class
+com/progresssoft/utils/LoggerUtil.class
+com/progresssoft/utils/Constants.class
+com/progresssoft/utils/Constants$DaoConstants.class
+com/progresssoft/App.class
+com/progresssoft/models/DealDetails.class
+com/progresssoft/service/ClusteredDataService.class
+com/progresssoft/dao/FXDealsDAO.class
