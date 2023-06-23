@@ -16,7 +16,15 @@ ClusteredData Warehouse is a data warehouse system developed for Bloomberg to an
 |App.java          		 |its main method calls `ClusteredDataService`.		  |[App](src/main/java/com/progresssoft/App.java)         								   |
 |ClusteredDataService    |acceptes, validates, and persistes DealDetails Data.|[ClusteredDataService](src/main/java/com/progresssoft/service/ClusteredDataService.java)|
 
-## Other classes, and files:  FXDealsDAO.java | DealDetails.java | Constants.java | LoggerUtil.java | log4j2.xml | FXDealsDAOTest.java | ClusteredDataServiceTest.java | app.jar | 
+## Other classes, and files:
+- `FXDealsDAO.java`.
+- `DealDetails.java`.
+- `Constants.java`.
+- `LoggerUtil.java`.
+- `log4j2.xml`.
+- `FXDealsDAOTest.java`.
+- `ClusteredDataServiceTest.java`.
+- `app.jar`. 
 
 ### Dependencies
 
