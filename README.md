@@ -9,14 +9,14 @@ ClusteredData Warehouse is a data warehouse system developed for Bloomberg to an
 | Title    			     | Description   		                           	  | Link to The Code 																	   |
 |------------------------|----------------------------------------------------|----------------------------------------------------------------------------------------|
 | Makefile 	  	         |Makefile      			  						  |[Makefile](Makefile)																       |
-| Dockerfile  	  		 |for building a Docker image						  |[Dockerfile](Dockerfile  															   |
+| Dockerfile  	  		 |for building a Docker image						  |[Dockerfile](Dockerfile)  															   |
 |docker-compose.yml		 |for deploying the application						  | [docker-compose.yml](docker-compose.yml)											   |
 |pom.xml		   		 |includes dependencies and build settings			  | [pom.xml](pom.xml)           														   |
 |config.properties 		 |includes db-conn details							  | [config.properties](src/main/resources/config.properties)							   |
 |App.java          		 |its main method calls `ClusteredDataService`.		  |[App](src/main/java/com/progresssoft/App.java)         								   |
 |ClusteredDataService    |acceptes, validates, and persistes DealDetails Data.|[ClusteredDataService](src/main/java/com/progresssoft/service/ClusteredDataService.java)|
 
-
+## Other classes, and files:  FXDealsDAO.java | DealDetails.java | Constants.java | LoggerUtil.java | log4j2.xml | FXDealsDAOTest.java | ClusteredDataServiceTest.java | app.jar | 
 
 ### Dependencies
 
